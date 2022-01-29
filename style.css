@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Poppins:wght@200;300;400&display=swap');
+
+html{
+    font-size: 1vw;
+}
+body {
+    background-color: rgb(83, 86, 119);
+}
+
+h1{
+    font-family: 'Poppins';
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: 4vw 10vw;
+}
+
+button {
+    color: rgb(245, 242, 227);
+    background-color: rgb(0, 0, 0);
+    width: 10vw;
+    padding: 1vw;
+    border-radius: 1rem;
+    border: floralwhite;
+    font-family: 'Poppins';
+    letter-spacing: .05vw;
+    font-size: 1vw;
+}
+
+
+
+input {
+    padding: 1vw;
+    width: 15vw;
+    border-radius: .3rem;
+    border: rgb(241, 241, 241);
+}
+
+#form {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 1vw;
+    margin-bottom: 3vw;
+}
+
+form input:last-child {
+    width: 7vw;
+    background-color: rgb(13, 4, 19);
+    color: lemonchiffon;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+    font-family: 'Poppins';
+    padding: .5rem;
+}
+
+.records-li{
+    width: 35vw;
+    height: 4vw;
+    display: grid;
+    font-family: 'Poppins';
+    font-weight: 400;
+    grid-template-columns: 1.5fr 1fr 2fr .8fr;
+    background-color: rgb(240, 211, 221);
+    padding-left:2vw;
+    font-size: 1.1rem;
+    align-items: center;
+    color: rgb(37, 1, 33);
+    border-radius: .5rem;
+    margin: 1vw 1vw;
+}
+
+#age{
+    width: 6vw;
+}
+
+ img{
+    height: 1.5vw;
+}
+
